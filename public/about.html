@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="050-000-0000" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0546365372" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0546365372';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -833,7 +833,7 @@
 
       <article class="about-benefit-card">
         <div class="about-benefit-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M6 16 C8 10, 14 6, 20 8 C26 10, 28 16, 24 22 C20 28, 10 26, 8 20" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" fill="none"></path>
             <path d="M18 8 L22 4 M24 22 L28 24" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
             <circle cx="7" cy="24" r="2.5" stroke="var(--primary)" stroke-width="2" fill="none"></circle>
@@ -847,7 +847,7 @@
 
       <article class="about-benefit-card">
         <div class="about-benefit-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="16" cy="12" r="5" stroke="var(--secondary)" stroke-width="2" fill="none"></circle>
             <path d="M6 26 C6 20, 10 17, 16 17 C22 17, 26 20, 26 26" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" fill="none"></path>
             <path d="M22 8 L24 6 M24 10 L26 10" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round"></path>
@@ -861,7 +861,7 @@
 
       <article class="about-benefit-card">
         <div class="about-benefit-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="16" cy="16" r="11" stroke="var(--primary)" stroke-width="2" fill="none"></circle>
             <path d="M16 9 L16 16 L21 19" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
@@ -874,7 +874,7 @@
 
       <article class="about-benefit-card">
         <div class="about-benefit-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M5 10 Q5 5, 10 5 L22 5 Q27 5, 27 10 L27 20 Q27 25, 22 25 L18 25 L14 29 L14 25 L10 25 Q5 25, 5 20 Z" stroke="var(--accent)" stroke-width="2" fill="none"></path>
             <path d="M11 14 L14 17 L21 11" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
@@ -889,7 +889,7 @@
   </div>
 
   <div class="about-benefits-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="benefits-glow-grad" x1="0" y1="0" x2="1" y2="0">
           <stop offset="0%" stop-color="rgba(139,92,246,0)"></stop>
@@ -928,7 +928,7 @@
     </div>
   </div>
   <div class="about-gallery-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,48 Q100,32 200,44 T400,36 Q520,28 600,40 T800,34 Q920,26 1000,38 T1200,44 L1200,90 Z" fill="#141414"></path>
     </svg>
   </div>
@@ -947,7 +947,7 @@
 
       <div class="about-policy-row">
         <div class="about-policy-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
         </div>
         <div class="about-policy-content">
           <h3 class="about-policy-title">הגעה בזמן</h3>
@@ -959,7 +959,7 @@
 
       <div class="about-policy-row">
         <div class="about-policy-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
         </div>
         <div class="about-policy-content">
           <h3 class="about-policy-title">איחורים</h3>
@@ -971,7 +971,7 @@
 
       <div class="about-policy-row">
         <div class="about-policy-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
         </div>
         <div class="about-policy-content">
           <h3 class="about-policy-title">שינוי או ביטול תור</h3>
@@ -983,7 +983,7 @@
 
       <div class="about-policy-row">
         <div class="about-policy-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
         </div>
         <div class="about-policy-content">
           <h3 class="about-policy-title">אמצעי תשלום</h3>
@@ -1015,9 +1015,9 @@
           <img src="/assets/business-logo.webp" alt="מספרת מוחמד" class="logo">
           <p class="footer-tagline">חווית תספורת וטיפוח ברמה הגבוהה ביותר — סטייל אורבני, תוצאות מדויקות.</p>
           <div class="footer-social">
-            <a href="[facebook_handle]" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
-            <a href="[instagram_handle]" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
-            <a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-link social-whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" class="social-link" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" class="social-link" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/972546365372" aria-label="WhatsApp" class="social-link social-whatsapp"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
 
@@ -1041,10 +1041,10 @@
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone"></i></span>
-              <a href="tel:[business_phone]">[business_phone]</a>
+              <a href="tel:0546365372">0546365372</a>
             </li>
             <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-              <span>[business_address]</span></a></li>
+              <span>לקיה, לקיה </span></a></li>
           </ul>
         </div>
 
@@ -1076,7 +1076,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972546365372" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

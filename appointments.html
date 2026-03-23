@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="050-000-0000" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0546365372" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0546365372';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -820,7 +820,7 @@
     </div>
   </div>
   <div class="abis-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="abis-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stop-color="transparent"></stop>
@@ -860,7 +860,7 @@
       </article>
       <div class="step-connector" aria-hidden="true">
         <div class="connector-line"></div>
-        <svg data-no-icon-edit="true" aria-hidden="true" width="10" height="16" viewbox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 8L1 2M9 8L1 14" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        <svg data-no-icon-edit="true" aria-hidden="true" width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 8L1 2M9 8L1 14" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
       </div>
       <article class="appointments-step-block">
         <div class="step-number-wrap">
@@ -875,7 +875,7 @@
       </article>
       <div class="step-connector" aria-hidden="true">
         <div class="connector-line"></div>
-        <svg data-no-icon-edit="true" aria-hidden="true" width="10" height="16" viewbox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 8L1 2M9 8L1 14" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        <svg data-no-icon-edit="true" aria-hidden="true" width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 8L1 2M9 8L1 14" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
       </div>
       <article class="appointments-step-block">
         <div class="step-number-wrap">
@@ -887,7 +887,7 @@
           <h3 class="step-title">קבלו אישור ב־WhatsApp</h3>
           <p class="step-desc">תוך רגעים תקבלו הודעת WhatsApp עם אישור התור – כולל התאריך והשעה המדויקים שנקבעו.</p>
           <span class="step-badge">
-            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.533 5.855L.057 23.5l5.797-1.52A11.937 11.937 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.001-1.366l-.359-.213-3.44.903.918-3.354-.234-.375A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.533 5.855L.057 23.5l5.797-1.52A11.937 11.937 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.001-1.366l-.359-.213-3.44.903.918-3.354-.234-.375A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"></path></svg>
             אישור מיידי
           </span>
         </div>
@@ -895,10 +895,10 @@
     </div>
   </div>
   <div class="appointments-steps-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 72" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <filter id="steps-glow">
-          <feGaussianBlur stddeviation="4" result="blur"></feGaussianBlur>
+          <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
           <feComposite in="SourceGraphic" in2="blur" operator="over"></feComposite>
         </filter>
       </defs>
@@ -946,7 +946,7 @@
     </p>
   </div>
   <div class="appointments-pricing-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 48" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,48 L0,0 L1200,0 L1200,48 Z" fill="#F5F3EF"></path>
     </svg>
   </div>
@@ -980,7 +980,7 @@
     </div>
   </div>
   <div class="avail-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,42 Q120,28 240,38 T480,30 Q600,22 720,34 T960,28 Q1080,36 1200,24 L1200,90 Z" fill="#141414"></path>
       <path d="M0,42 Q120,28 240,38 T480,30 Q600,22 720,34 T960,28 Q1080,36 1200,24" fill="#141414" stroke="#00D4FF" stroke-width="2" opacity="0.7"></path>
     </svg>
@@ -990,7 +990,7 @@
 <section class="appointments-payment-section" data-layout-spec="תורים-payment" dir="rtl">
   <div class="appointments-payment-container">
     <div class="appointments-payment-icon-wrap">
-      <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 48 48" fill="none" aria-hidden="true">
+      <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
         <rect x="6" y="12" width="36" height="26" rx="3" stroke="currentColor" stroke-width="2.2" fill="none"></rect>
         <path d="M6 20h36" stroke="currentColor" stroke-width="2.2"></path>
         <rect x="12" y="28" width="8" height="4" rx="1" fill="currentColor" opacity="0.7"></rect>
@@ -1006,7 +1006,7 @@
     </div>
   </div>
   <div class="appointments-payment-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 24" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <line x1="60" y1="12" x2="1140" y2="12" stroke="url(#dotted-grad)" stroke-width="2" stroke-dasharray="6 8" stroke-linecap="round"></line>
       <defs>
         <linearGradient id="dotted-grad" x1="0" y1="0" x2="1" y2="0">
@@ -1031,7 +1031,7 @@
     <div class="appointments-notices-list">
       <div class="appointments-notice-item">
         <div class="appointments-notice-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="12" cy="12" r="10"></circle>
             <polyline points="12 6 12 12 16 14"></polyline>
           </svg>
@@ -1046,7 +1046,7 @@
 
       <div class="appointments-notice-item">
         <div class="appointments-notice-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
             <line x1="12" y1="9" x2="12" y2="13"></line>
             <line x1="12" y1="17" x2="12.01" y2="17"></line>
@@ -1062,7 +1062,7 @@
 
       <div class="appointments-notice-item">
         <div class="appointments-notice-icon-wrap appointments-notice-icon-whatsapp">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"></path>
           </svg>
         </div>
@@ -1075,7 +1075,7 @@
 
     <div class="appointments-notices-cta">
       <a href="https://wa.me/972546365372" target="_blank" rel="noopener noreferrer" class="appointments-notices-btn btn-primary">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"></path>
         </svg>
         <span>שלח הודעה ב־WhatsApp</span>
@@ -1095,9 +1095,9 @@
           <img src="/assets/business-logo.webp" alt="מספרת מוחמד" class="logo">
           <p class="footer-tagline">חווית תספורת וטיפוח ברמה הגבוהה ביותר — סטייל אורבני, תוצאות מדויקות.</p>
           <div class="footer-social">
-            <a href="[facebook_handle]" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
-            <a href="[instagram_handle]" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
-            <a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-link social-whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" class="social-link" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" class="social-link" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/972546365372" aria-label="WhatsApp" class="social-link social-whatsapp"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
 
@@ -1121,10 +1121,10 @@
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone"></i></span>
-              <a href="tel:[business_phone]">[business_phone]</a>
+              <a href="tel:0546365372">0546365372</a>
             </li>
             <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-              <span>[business_address]</span></a></li>
+              <span>לקיה, לקיה </span></a></li>
           </ul>
         </div>
 
@@ -1156,7 +1156,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972546365372" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
