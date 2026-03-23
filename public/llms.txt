@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+מספרת מוחמד מציעה תספורות איכותיות לגברים וילדים במחירים נגישים, שבעה ימים בשבוע. אווירה נעימה, שירות ידידותי וזימון תור מהיר בוואטסאפ. בואו לגלות את ההבדל!
+
+### אודות
+https://example.com/about
+גלו מי עומד מאחורי מספרת מוחמד — מקצועיות, דיוק בזמנים ואהבה אמיתית לעבודה. אנחנו מאמינים שכל לקוח מגיע לחוויה מיוחדת. היכנסו וקראו את הסיפור שלנו!
+
+### תורים
+https://example.com/appointments
+מערכת קביעת תורים חכמה ונוחה עם אישור מיידי בוואטסאפ. חסכו זמן, הגיעו בדיוק בשעה הנכונה ותיהנו מתספורת מקצועית ללא המתנה. קבעו את התור שלכם עכשיו!
+
+### צור קשר
+https://example.com/contact
+רוצים לדעת איפה אנחנו, מה שעות הפעילות או סתם יש לכם שאלה? צרו קשר עם מספרת מוחמד עוד היום ותקבלו מענה מהיר ואדיב. אנחנו כאן בשבילכם שבעה ימים בשבוע!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
